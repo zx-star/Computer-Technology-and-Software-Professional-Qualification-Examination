@@ -1,0 +1,18 @@
+# 依赖
+node_modules/
+
+# 构建产物
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 飞书上传脚本的本地状态（含飞书资源 token 与文档链接）
+_feishu-upload-state.json
+_feishu-upload-state.json.tmp
+_feishu-upload-current.md
+
+# 系统文件
+.DS_Store

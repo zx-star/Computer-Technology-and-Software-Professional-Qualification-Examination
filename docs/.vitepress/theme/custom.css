@@ -1,0 +1,17 @@
+.course-highlight {
+  color: #d94b45;
+  font-weight: 600;
+}
+
+.dark .course-highlight {
+  color: #ff8b84;
+}
+
+/* Keep Chapter 13 diagrams readable without letting them dominate the page. */
+.vp-doc._source_chapter-13_ img,
+.vp-doc._notes_chapter-13_ img {
+  display: block;
+  max-width: 72%;
+  height: auto;
+  margin: 1rem auto;
+}

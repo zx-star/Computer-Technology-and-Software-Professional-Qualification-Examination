@@ -1,0 +1,16 @@
+{
+  "name": "ruankao-architect-notes",
+  "version": "1.0.0",
+  "description": "软考高级系统架构设计师学习笔记",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.5.0"
+  },
+  "license": "MIT"
+}
