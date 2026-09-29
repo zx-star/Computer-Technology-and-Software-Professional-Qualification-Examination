@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Computer-Technology-and-Software-Professional-Qualification-Examination/',
   title: '系统架构设计师',
   titleTemplate: '软考学习笔记',
   description: '软考高级系统架构设计师学习笔记',
